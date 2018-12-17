@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Travel Diary</string>
+    <string name="title_list">My Travel</string>
+    <string name="title_about_me">About Me</string>
+    <string name="search_hint">Search Your Travel</string>
+    <string name="no_list_text">To enjoy your Travel Diary, Please, add new travel.</string>
+    <string name="hint_travel_name">Please input travel name</string>
+    <string name="text_developer_name">Myunghwa Park</string>
+    <string name="text_phone_number">+6421-0886-0160</string>
+    <string name="text_email_address">minghoa@naver.com</string>
+    <string name="url_privacy_policy">http://minghoa.wixsite.com/alice/privacy-policy</string>
+
+    <string name="btn_privacy_policy">Privacy Policy</string>
+    <string name="btn_add_travel">Add Travel</string>
+    <string name="btn_cover_image">Set as cover image</string>
+    <string name="btn_add_photos">ADD PHOTOS</string>
+    <string name="btn_create_travel">New Travel</string>
+    <string name="btn_modify_travel">Modify Travel</string>
+    <string name="btn_modify_location">Edit Location</string>
+    <string name="btn_delete_photo">Delete Photo</string>
+    <string name="btn_cancel">CANCEL</string>
+    <string name="btn_apply">APPLY</string>
+    <string name="btn_save">SAVE</string>
+    <string name="btn_add_memo">ADD MEMO</string>
+    <string name="btn_edit_memo">EDIT MEMO</string>
+    <string name="btn_add">ADD</string>
+    <string name="btn_edit">EDIT</string>
+    <string name="text_developer">Developer</string>
+    <string name="text_email">E-mail</string>
+    <string name="text_mobile">Mobile</string>
+    <string name="text_no_list">There is no search result.</string>
+    <string name="text_loading">Loading..</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_search_travel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <EditText
+            android:id="@+id/edit_search_travel"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:background="@drawable/box_border_gray"
+            android:inputType="textPersonName"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/black"
+            android:hint="@string/search_hint"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:imeOptions="actionDone"/>
+
+        <ImageButton
+            android:id="@+id/btn_search_travel"
+            android:layout_width="25dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:adjustViewBounds="true"
+            android:background="#00000000"
+            android:maxWidth="25dp"
+            android:maxHeight="24dp"
+            android:scaleType="fitStart"
+            android:layout_gravity="center|center_vertical"
+            android:src="@drawable/btn_search"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_no_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="@string/no_list_text"/>
+
+        <Button
+            android:id="@+id/btn_addTravel"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:padding="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="@string/btn_add_travel"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_pink_selector"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/photo_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_search_travel"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/text_no_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_no_list"
+        android:textColor="@color/textBody"
+        android:layout_below="@+id/layout_search_travel"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+<!--
+    <Button
+        android:id="@+id/btn_privacyPolicy"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_mint_selector"
+        android:textColor="@color/textGreen"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:text="@string/btn_privacy_policy"/>-->
+</RelativeLayout>

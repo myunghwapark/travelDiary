@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#97ebdd</color>
+    <color name="colorPrimaryDark">#47c6b1</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_splash">#97ebdd</color>
+    <color name="transparency">#00000000</color>
+    <color name="textTitle">#7c4e60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#2e2e2e</color>
+    <color name="btnGrayBorder">#afadad</color>
+    <color name="darkGray">#606060</color>
+    <color name="textBody">#847d86</color>
+    <color name="underline">#c1c1c1</color>
+    <color name="gray_light">#e3e3e3</color>
+    <color name="bg_color">#fefef8</color>
+    <color name="btn_bg_pink">#ff5b6a</color>
+    <color name="btn_bg_pink_on">#fe929c</color>
+    <color name="btn_border_pink">#c73845</color>
+    <color name="textGreen">#147669</color>
+    <color name="textPink">#fe757f</color>
+    <color name="textPink_on">#e73f4b</color>
+    <drawable name="bg_light">#d3f7f1</drawable>
+    <drawable name="bg_light_on">#dbf5f1</drawable>
+
+    <color name="black_overlay">#66000000</color>
+</resources>
